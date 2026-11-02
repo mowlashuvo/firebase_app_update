@@ -1,0 +1,22 @@
+name: firebase_app_update
+description: Check Flutter app versions with Firebase Remote Config and display optional or mandatory update dialogs with store links.
+version: 0.1.1
+
+homepage: https://github.com/mowlashuvo/firebase_app_update
+repository: https://github.com/mowlashuvo/firebase_app_update
+
+environment:
+  sdk: ^3.11.5
+  flutter: '>=3.35.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_remote_config: ^7.0.1
+  package_info_plus: ^10.2.2
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
